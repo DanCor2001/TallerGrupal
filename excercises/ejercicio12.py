@@ -20,21 +20,21 @@ class calcularIMC:
             return "sobrepeso"
         else:
             return "obesidad"
+    def funcion():
+
+        print("calcular imc")
+
+        peso = float(input("ingrese su peso : "))
+        altura = float(input("ingrese su altura : "))
 
 
-print("calcular imc")
 
-peso = float(input("ingrese su peso : "))
-altura = float(input("ingrese su altura : "))
+        persona = calcularIMC(peso, altura)
 
-
-
-persona = calcularIMC(peso, altura)
-
-imc = persona.obtenerIndice()
-categoria = persona.categoria()
-if isinstance(imc, str):
-    print(imc)
-else:
-    print(f"IMC: {imc:.2f}")
-    print(f"Categoría: {categoria}")
+        imc = persona.obtenerIndice()
+        categoria = persona.categoria()
+        if isinstance(imc, str):
+            print(imc)
+        else:
+            print(f"IMC: {imc:.2f}")
+            print(f"Categoría: {categoria}")

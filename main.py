@@ -1,4 +1,5 @@
 from functions.functions import Functions
+from excercises.ejercicio12 import calcularIMC
 from selects.Exit import Exit
 class Main:
     def __init__(self):
@@ -23,7 +24,7 @@ class Main:
                        ["Noveno Ejercicio",lambda: print("9")],
                        ["Decimo Ejercicio",lambda: print("10")],
                        ["Décimo Primer Ejercicio",lambda: print("11")],
-                       ["Décimo Segundo Ejercicio",lambda: print("12")],
+                       ["Décimo Segundo Ejercicio",lambda: calcularIMC.funcion()],
                        ["Décimo Tercer Ejercicio",lambda: print("13")],
                        ["Décimo Cuarto Ejercicio",lambda: print("14")],
                        ["Décimo Quinto Ejercicio",lambda: print("15")],
