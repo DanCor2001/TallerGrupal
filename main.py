@@ -1,4 +1,5 @@
 from functions.functions import Functions
+from excercises.TercerEjercicio import ConversorTemperatura
 from selects.Exit import Exit
 class Main:
     def __init__(self):
@@ -14,7 +15,7 @@ class Main:
     def main_list(self):
         self.mainlist=[["Primer Ejercicio",lambda: print("1")],
                        ["Segundo Ejercicio",lambda: print("2")],
-                       ["Tercer Ejercicio",lambda: print("3")],
+                       ["Tercer Ejercicio",lambda: ConversorTemperatura.funcion()],
                        ["Cuarto Ejercicio",lambda: print("4")],
                        ["Quinto Ejercicio",lambda: print("5")],
                        ["Sexto Ejercicio",lambda: print("6")],
