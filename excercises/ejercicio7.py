@@ -9,11 +9,11 @@ class CalculadoraDescuentos:
     
     def descuentoFinal(self):
         return self.precio - self.montoDescuento()
-    
-precio = float(input("Ingrese el precio del producto: "))
-porcentaje = float(input("Ingrese el porcenjate del descuento: "))   
+    def funcion ():
+        precio = float(input("Ingrese el precio del producto: "))
+        porcentaje = float(input("Ingrese el porcenjate del descuento: "))   
 
-calculadora = CalculadoraDescuentos(precio, porcentaje)
+        calculadora = CalculadoraDescuentos(precio, porcentaje)
 
-print("Monto del descuento:", calculadora.montoDescuento())
-print("Monto del precio final:", calculadora.descuentoFinal())
+        print("Monto del descuento:", calculadora.montoDescuento())
+        print("Monto del precio final:", calculadora.descuentoFinal())
