@@ -1,4 +1,5 @@
 from functions.functions import Functions
+from excercises.ejercicio2 import CalculadoraAreaCuadrado
 from selects.Exit import Exit
 class Main:
     def __init__(self):
@@ -13,7 +14,7 @@ class Main:
             self.mainlist[select1-1][1]()
     def main_list(self):
         self.mainlist=[["Primer Ejercicio",lambda: print("1")],
-                       ["Segundo Ejercicio",lambda: print("2")],
+                       ["Segundo Ejercicio",lambda: CalculadoraAreaCuadrado.prueba()],
                        ["Tercer Ejercicio",lambda: print("3")],
                        ["Cuarto Ejercicio",lambda: print("4")],
                        ["Quinto Ejercicio",lambda: print("5")],
