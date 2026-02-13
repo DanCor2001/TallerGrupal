@@ -9,19 +9,20 @@ class CalculadoraAreaCuadrado:
     def calcularPerimetro(self):
         return self.lado * 4
 
-while True:
-    entrada = input("Ingrese el lado del cuadrado (escriba 'salir' para terminar): ")
+    def prueba():
+        while True:
+            entrada = input("Ingrese el lado del cuadrado (escriba 'salir' para terminar): ")
 
-    if entrada.lower().replace(" ", "") == "salir":
-        print("Programa finalizado")
-        break
+            if entrada.lower().replace(" ", "") == "salir":
+                print("Programa finalizado")
+                break
 
-    try:
-        lado = float(entrada)
-        cuadrado = CalculadoraAreaCuadrado(lado)
+            try:
+                lado = float(entrada)
+                cuadrado = CalculadoraAreaCuadrado(lado)
 
-        print("area cuadrado:", cuadrado.calcularArea())
-        print("Perimetro cuadrado:", cuadrado.calcularPerimetro())
+                print("area cuadrado:", cuadrado.calcularArea())
+                print("Perimetro cuadrado:", cuadrado.calcularPerimetro())
 
-    except ValueError:
-        print("Entrada invalida, ingrese un numero o salir")
+            except ValueError:
+                print("Entrada invalida, ingrese un numero o salir")
