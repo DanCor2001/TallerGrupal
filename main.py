@@ -1,4 +1,6 @@
 from functions.functions import Functions
+from excercises.e9 import convertidormedidas
+from excercises.e11 import AhorroPersonal
 from selects.Exit import Exit
 class Main:
     def __init__(self):
@@ -20,9 +22,9 @@ class Main:
                        ["Sexto Ejercicio",lambda: print("6")],
                        ["Séptimo Ejercicio",lambda: print("7")],
                        ["Octavo Ejercicio",lambda: print("8")],
-                       ["Noveno Ejercicio",lambda: print("9")],
+                       ["Noveno Ejercicio",lambda: convertidormedidas.funcion()],
                        ["Decimo Ejercicio",lambda: print("10")],
-                       ["Décimo Primer Ejercicio",lambda: print("11")],
+                       ["Décimo Primer Ejercicio",lambda: AhorroPersonal.funcion()],
                        ["Décimo Segundo Ejercicio",lambda: print("12")],
                        ["Décimo Tercer Ejercicio",lambda: print("13")],
                        ["Décimo Cuarto Ejercicio",lambda: print("14")],
