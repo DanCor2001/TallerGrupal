@@ -1,4 +1,5 @@
 from functions.functions import Functions
+from excercises.ejercicio1 import CalculadoraBasica
 from selects.Exit import Exit
 class Main:
     def __init__(self):
@@ -12,7 +13,7 @@ class Main:
             select1=Functions.filter("int",text,1,len(self.mainlist))
             self.mainlist[select1-1][1]()
     def main_list(self):
-        self.mainlist=[["Primer Ejercicio",lambda: print("1")],
+        self.mainlist=[["Primer Ejercicio",lambda: CalculadoraBasica.funcion()],
                        ["Segundo Ejercicio",lambda: print("2")],
                        ["Tercer Ejercicio",lambda: print("3")],
                        ["Cuarto Ejercicio",lambda: print("4")],
