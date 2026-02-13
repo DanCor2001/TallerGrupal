@@ -9,12 +9,11 @@ class CalculadoraVelocidad:
             return 0
         velocidad = self.distancia / self.tiempo
         return velocidad
+    def funcion():
+        distancia = float(input("Ingrese la distancia (en km): "))
+        tiempo = float(input("Ingrese el tiempo (en horas): "))
 
+        calculadora = CalculadoraVelocidad(distancia, tiempo)
+        velocidad_media = calculadora.calcularVelocidadMedia()
 
-distancia = float(input("Ingrese la distancia (en km): "))
-tiempo = float(input("Ingrese el tiempo (en horas): "))
-
-calculadora = CalculadoraVelocidad(distancia, tiempo)
-velocidad_media = calculadora.calcularVelocidadMedia()
-
-print("La velocidad media es:", velocidad_media, "km/h")
+        print("La velocidad media es:", velocidad_media, "km/h")

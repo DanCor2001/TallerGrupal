@@ -1,4 +1,5 @@
 from functions.functions import Functions
+from excercises.ejercicio14 import CalculadoraVelocidad
 from selects.Exit import Exit
 class Main:
     def __init__(self):
@@ -25,7 +26,7 @@ class Main:
                        ["Décimo Primer Ejercicio",lambda: print("11")],
                        ["Décimo Segundo Ejercicio",lambda: print("12")],
                        ["Décimo Tercer Ejercicio",lambda: print("13")],
-                       ["Décimo Cuarto Ejercicio",lambda: print("14")],
+                       ["Décimo Cuarto Ejercicio",lambda: CalculadoraVelocidad.funcion()],
                        ["Décimo Quinto Ejercicio",lambda: print("15")],
-                       ["Salir",lambda: Exit()]]
+                       ["Saslir",lambda: Exit()]]
 Main()
