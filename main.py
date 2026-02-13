@@ -1,4 +1,6 @@
 from functions.functions import Functions
+from excercises.ejercicio10 import CalculadoraTriangulo
+from excercises.ejercicio13 import RepartidorGastos
 from selects.Exit import Exit
 class Main:
     def __init__(self):
@@ -21,10 +23,10 @@ class Main:
                        ["Séptimo Ejercicio",lambda: print("7")],
                        ["Octavo Ejercicio",lambda: print("8")],
                        ["Noveno Ejercicio",lambda: print("9")],
-                       ["Decimo Ejercicio",lambda: print("10")],
+                       ["Decimo Ejercicio",lambda: CalculadoraTriangulo.funcion()],
                        ["Décimo Primer Ejercicio",lambda: print("11")],
                        ["Décimo Segundo Ejercicio",lambda: print("12")],
-                       ["Décimo Tercer Ejercicio",lambda: print("13")],
+                       ["Décimo Tercer Ejercicio",lambda: RepartidorGastos.funcion()],
                        ["Décimo Cuarto Ejercicio",lambda: print("14")],
                        ["Décimo Quinto Ejercicio",lambda: print("15")],
                        ["Salir",lambda: Exit()]]
