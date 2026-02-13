@@ -1,5 +1,6 @@
 from functions.functions import Functions
 from excercises.ejercicio2 import CalculadoraAreaCuadrado
+from excercises.ejercicio8 import GeometriaCirculo
 from selects.Exit import Exit
 class Main:
     def __init__(self):
@@ -20,7 +21,7 @@ class Main:
                        ["Quinto Ejercicio",lambda: print("5")],
                        ["Sexto Ejercicio",lambda: print("6")],
                        ["Séptimo Ejercicio",lambda: print("7")],
-                       ["Octavo Ejercicio",lambda: print("8")],
+                       ["Octavo Ejercicio",lambda: GeometriaCirculo.prueba()],
                        ["Noveno Ejercicio",lambda: print("9")],
                        ["Decimo Ejercicio",lambda: print("10")],
                        ["Décimo Primer Ejercicio",lambda: print("11")],
