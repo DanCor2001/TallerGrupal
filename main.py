@@ -1,4 +1,5 @@
 from functions.functions import Functions
+from excercises.ejercicio4 import EstadisticaSimple
 from selects.Exit import Exit
 class Main:
     def __init__(self):
@@ -15,7 +16,7 @@ class Main:
         self.mainlist=[["Primer Ejercicio",lambda: print("1")],
                        ["Segundo Ejercicio",lambda: print("2")],
                        ["Tercer Ejercicio",lambda: print("3")],
-                       ["Cuarto Ejercicio",lambda: print("4")],
+                       ["Cuarto Ejercicio",lambda: EstadisticaSimple.calcularPromedio()],
                        ["Quinto Ejercicio",lambda: print("5")],
                        ["Sexto Ejercicio",lambda: print("6")],
                        ["Séptimo Ejercicio",lambda: print("7")],
