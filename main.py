@@ -13,6 +13,7 @@ from excercises.ejercicio10 import CalculadoraTriangulo
 from excercises.ejercicio13 import RepartidorGastos
 from excercises.ejercicio12 import calcularIMC
 from excercises.ejercicio14 import CalculadoraVelocidad
+from excercises.ejercicio5 import CalculadoraIVA
 from selects.Exit import Exit
 class Main:
     def __init__(self):
@@ -30,7 +31,7 @@ class Main:
                        ["Segundo Ejercicio",lambda: CalculadoraAreaCuadrado.prueba()],
                        ["Tercer Ejercicio",lambda: ConversorTemperatura.funcion()],
                        ["Cuarto Ejercicio",lambda: EstadisticaSimple.calcularPromedio()],
-                       ["Quinto Ejercicio",lambda: print("5")],
+                       ["Quinto Ejercicio",lambda: CalculadoraIVA.funcion()],
                        ["Sexto Ejercicio",lambda: Exercise6()],
                        ["Séptimo Ejercicio",lambda: CalculadoraDescuentos.funcion()],
                        ["Octavo Ejercicio",lambda: GeometriaCirculo.prueba()],
