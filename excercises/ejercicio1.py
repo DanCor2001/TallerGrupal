@@ -1,9 +1,9 @@
 class CalculadoraBasica:
 
-    def sumar(self, num1, num2):
+    def sumar(num1, num2):
         return num1 + num2
 
-    def restar(self, num1, num2):
+    def restar(num1, num2):
         return num1 - num2
     def funcion():
         print("1. Sumar")
