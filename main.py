@@ -1,3 +1,4 @@
+#Finalizado
 from functions.functions import Functions
 from excercises.ejercicio1 import CalculadoraBasica
 from excercises.ejercicio2 import CalculadoraAreaCuadrado
