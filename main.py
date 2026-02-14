@@ -2,6 +2,7 @@ from functions.functions import Functions
 from excercises.ejercicio1 import CalculadoraBasica
 from excercises.ejercicio2 import CalculadoraAreaCuadrado
 from excercises.ejercicio8 import GeometriaCirculo
+from excercises.TercerEjercicio import ConversorTemperatura
 from selects.Exit import Exit
 class Main:
     def __init__(self):
@@ -17,7 +18,7 @@ class Main:
     def main_list(self):
         self.mainlist=[["Primer Ejercicio",lambda: CalculadoraBasica.funcion()],
                        ["Segundo Ejercicio",lambda: CalculadoraAreaCuadrado.prueba()],
-                       ["Tercer Ejercicio",lambda: print("3")],
+                       ["Tercer Ejercicio",lambda: ConversorTemperatura.funcion()],
                        ["Cuarto Ejercicio",lambda: print("4")],
                        ["Quinto Ejercicio",lambda: print("5")],
                        ["Sexto Ejercicio",lambda: print("6")],
