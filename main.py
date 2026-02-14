@@ -12,6 +12,7 @@ from excercises.e11 import AhorroPersonal
 from excercises.ejercicio10 import CalculadoraTriangulo
 from excercises.ejercicio13 import RepartidorGastos
 from excercises.ejercicio12 import calcularIMC
+from excercises.ejercicio14 import CalculadoraVelocidad
 from selects.Exit import Exit
 class Main:
     def __init__(self):
@@ -38,7 +39,7 @@ class Main:
                        ["Décimo Primer Ejercicio",lambda: AhorroPersonal.funcion()],
                        ["Décimo Segundo Ejercicio",lambda: calcularIMC.funcion()],
                        ["Décimo Tercer Ejercicio",lambda: RepartidorGastos.funcion()],
-                       ["Décimo Cuarto Ejercicio",lambda: print("14")],
+                       ["Décimo Cuarto Ejercicio",lambda: CalculadoraVelocidad.funcion()],
                        ["Décimo Quinto Ejercicio",lambda: Exercise15.show()],
                        ["Salir",lambda: Exit()]]
 Main()
