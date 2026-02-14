@@ -6,6 +6,7 @@ from excercises.TercerEjercicio import ConversorTemperatura
 from excercises.ejercicio4 import EstadisticaSimple
 from excercises.Excercise6 import Exercise6
 from excercises.Excercise15 import Exercise15
+from excercises.ejercicio7 import CalculadoraDescuentos
 from selects.Exit import Exit
 class Main:
     def __init__(self):
@@ -25,7 +26,7 @@ class Main:
                        ["Cuarto Ejercicio",lambda: EstadisticaSimple.calcularPromedio()],
                        ["Quinto Ejercicio",lambda: print("5")],
                        ["Sexto Ejercicio",lambda: Exercise6()],
-                       ["Séptimo Ejercicio",lambda: print("7")],
+                       ["Séptimo Ejercicio",lambda: CalculadoraDescuentos.funcion()],
                        ["Octavo Ejercicio",lambda: GeometriaCirculo.prueba()],
                        ["Noveno Ejercicio",lambda: print("9")],
                        ["Decimo Ejercicio",lambda: print("10")],
