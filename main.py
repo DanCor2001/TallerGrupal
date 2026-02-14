@@ -11,6 +11,7 @@ from excercises.e9 import convertidormedidas
 from excercises.e11 import AhorroPersonal
 from excercises.ejercicio10 import CalculadoraTriangulo
 from excercises.ejercicio13 import RepartidorGastos
+from excercises.ejercicio12 import calcularIMC
 from selects.Exit import Exit
 class Main:
     def __init__(self):
@@ -35,7 +36,7 @@ class Main:
                        ["Noveno Ejercicio",lambda: convertidormedidas.funcion()],
                        ["Decimo Ejercicio",lambda: CalculadoraTriangulo.funcion()],
                        ["Décimo Primer Ejercicio",lambda: AhorroPersonal.funcion()],
-                       ["Décimo Segundo Ejercicio",lambda: print("12")],
+                       ["Décimo Segundo Ejercicio",lambda: calcularIMC.funcion()],
                        ["Décimo Tercer Ejercicio",lambda: RepartidorGastos.funcion()],
                        ["Décimo Cuarto Ejercicio",lambda: print("14")],
                        ["Décimo Quinto Ejercicio",lambda: Exercise15.show()],
