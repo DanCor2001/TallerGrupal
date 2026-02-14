@@ -1,12 +1,11 @@
 from functions.functions import Functions
-from selects.Exit import Exit
 class Exercise6:
     def __init__(self):
         while True:
             Exercise6.main_list(self)
             text=""
             for i,x in enumerate(self.selectlist):
-                if i==0:text+=f"¡Ejercicios!\n\n{i+1}. {x[0]}\n"
+                if i==0:text+=f"¡Ejercicio 6!\n\n{i+1}. {x[0]}\n"
                 elif i==len(self.selectlist)-1:text+=f"{i+1}. {x[0]}"
                 else:text+=f"{i+1}. {x[0]}\n"
             select1=Functions.filter("int",text,1,len(self.selectlist))
@@ -27,4 +26,4 @@ class Exercise6:
         num2=float(0)
         num1=Functions.filter("int","Número base:",1,float("inf"))
         num2=num1**(1/2)
-        print(f"La ecuación es la siguiente:\n  ²v{num1} = {num2}\n")
+        print(f"La ecuación es la siguiente:\n  ²v{num1} = {num2:.1f}\n")
